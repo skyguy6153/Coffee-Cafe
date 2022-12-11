@@ -1,0 +1,21 @@
+h1, h2, p {
+    text-align: center;
+  }
+body {
+    background-image: url(https://media.istockphoto.com/id/144364740/photo/hazelnut-cappucinno.jpg?s=612x612&w=0&k=20&c=6PcwNW_g9GmVNII9dfUibsn3LScG8M4c49l-0Tl-8hI=);
+}
+
+.menu {                               /* margins are used to help center the div. */
+    width: 80%; background-color: burlywood; margin-left: auto; margin-right: auto;
+}
+.flavor {
+    text-align: left;
+    width: 50%;
+}
+.price {
+    text-align: right;
+    width: 50%;
+}
+.item p {
+    display: inline-block;
+}
