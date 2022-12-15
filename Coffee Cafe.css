@@ -1,6 +1,6 @@
 body {
     background-image: url(https://media.istockphoto.com/id/144364740/photo/hazelnut-cappucinno.jpg?s=612x612&w=0&k=20&c=6PcwNW_g9GmVNII9dfUibsn3LScG8M4c49l-0Tl-8hI=);
-    font-family: sans-serif;
+    font-family: sans-serif; padding: 20px;
 }
 
 h1 {
@@ -43,8 +43,33 @@ h1, h2, p {
 }
 .item p {
     display: inline-block;
+    margin-top: 5px; /* sets the margin area on the top of an element */
+    margin-bottom: 5px;
+    font-size: 18px; /* Changes font size of items/prices */
+    
 }
 
 h1, h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, serif;
 }
+
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+}
+a {
+  color: black;
+}
+
+a:visited { color: grey; }
