@@ -1,21 +1,97 @@
+body {
+    background-image: url(https://media.istockphoto.com/id/144364740/photo/hazelnut-cappucinno.jpg?s=612x612&w=0&k=20&c=6PcwNW_g9GmVNII9dfUibsn3LScG8M4c49l-0Tl-8hI=);
+    font-family: sans-serif; padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+
+.established {
+    font-style: italic
+  }
+
 h1, h2, p {
     text-align: center;
   }
-body {
-    background-image: url(https://media.istockphoto.com/id/144364740/photo/hazelnut-cappucinno.jpg?s=612x612&w=0&k=20&c=6PcwNW_g9GmVNII9dfUibsn3LScG8M4c49l-0Tl-8hI=);
-}
 
-.menu {                               /* margins are used to help center the div. */
-    width: 80%; background-color: burlywood; margin-left: auto; margin-right: auto;
+.menu {      /* margins are used to help center the div. */
+    width: 80%; 
+    background-color: burlywood; 
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;    /* padding gives space between the 
+    content and the sides of project.*/
+     
+    /* All 4 sides in this project have the same padding size, 
+   so you only need to list one padding property rather than 
+   4 individual ones */
 }
-.flavor {
+.flavor, .dessert {
     text-align: left;
-    width: 50%;
+    width: 75%;
 }
 .price {
     text-align: right;
-    width: 50%;
+    width: 25%;
 }
 .item p {
     display: inline-block;
+    margin-top: 5px; /* sets the margin area on the top of an element */
+    margin-bottom: 5px;
+    font-size: 18px; /* Changes font size of items/prices */
+    
+}
+
+h1, h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, serif;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+}
+
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+}
+
+.address{
+  margin-bottom: 5px;
+}
+
+a {
+  color: black;
+}
+
+a:visited { color: black; }
+
+a:hover {
+  color: brown;
+}
+
+a:active  {
+  color: brown;
 }
